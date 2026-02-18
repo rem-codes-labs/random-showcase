@@ -1,0 +1,26 @@
+:root {
+  --color-midnight: #0b132b;
+  --color-paper: #f7f5f2;
+  --color-accent: #2dd4bf;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-paper);
+  color: var(--color-midnight);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
